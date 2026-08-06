@@ -1,154 +1,83 @@
-<div align="center">
+# 👋 Hey there, I'm **hackers-reality**
 
-# Arnav · hackers-reality
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=850&lines=Cybersecurity+Explorer+%7C+Builder+%7C+Learner;I+break+things+to+understand+them+%F0%9F%94%A5;Always+learning.+Always+building.;Welcome+to+my+GitHub+profile+%F0%9F%9A%80" alt="Typing animation" />
+</p>
 
-### Autonomous agents · AI systems · developer tools · ambitious experiments
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&text=HACKERS%20REALITY&fontAlign=50&fontAlignY=35&color=0:0f0c29,50:302b63,100:24243e&fontColor=00f5ff&animation=fadeIn" alt="banner"/>
+</p>
 
-`Python` · `TypeScript` · `Next.js` · `AI Agents` · `Automation` · `LLM Systems`
-
-> **I like building systems that do things — not demos that merely talk about doing them.**
-
-</div>
-
----
-
-## 👋 About
-
-I'm **Arnav**, building under **hackers-reality**.
-
-My projects revolve around autonomous AI agents, personal assistants, developer tooling, financial intelligence, full-stack applications, and experiments in giving language models useful tools, context, workflows, and the ability to operate across larger tasks.
-
-A recurring idea behind my work is simple:
-
-> **The model is only part of the system.** Context, tools, orchestration, feedback loops, verification, and the engineering around the model matter just as much.
+<p align="center">
+  <a href="https://github.com/hackers-reality"><img src="https://img.shields.io/badge/GitHub-hackers--reality-181717?style=for-the-badge&logo=github" /></a>
+  <img src="https://komarev.com/ghpvc/?username=hackers-reality&style=for-the-badge&color=blueviolet" alt="profile views" />
+  <img src="https://img.shields.io/badge/Open%20to-Collaboration-00C853?style=for-the-badge" alt="open to collaboration" />
+</p>
 
 ---
 
-## 🚀 Selected Projects
+## 🧠 About Me
 
-### 🤖 [FRIDAY](https://github.com/hackers-reality/friday)
-My ongoing work around a capable personal AI / agent system — pushing beyond a chat interface toward tools, automation, research workflows and increasingly autonomous execution.
-
-### 🦾 [FRIDAY — Tony Stark Demo](https://github.com/hackers-reality/friday-tony-stark-demo)
-A focused demonstration of the FRIDAY concept and assistant-style interaction experience.
-
-### 💹 [FinIntel](https://github.com/hackers-reality/FinIntel)
-Experiments around AI-assisted financial intelligence and analysis.
-
-### ⚡ [G0DM0D3](https://github.com/hackers-reality/G0DM0D3)
-An experimental project exploring more capable AI-driven and tool-oriented workflows.
-
-### 🎌 [NexAnime](https://github.com/hackers-reality/NexAnime)
-One of my larger application projects, representing the full-stack/product side of my work.
-
-### 🧠 [EmoBoost-1021](https://github.com/hackers-reality/EmoBoost-1021)
-An earlier user-facing software project in my portfolio, exploring technology around emotional wellbeing.
-
-### 🧪 [claw-code](https://github.com/hackers-reality/claw-code)
-Developer and agent experimentation around code-oriented autonomous workflows.
-
-### 🖥️ [NexCli](https://github.com/hackers-reality/NexCli)
-CLI experimentation — because apparently graphical interfaces weren't enough trouble. 😭
+- 🔭 Building security-focused and automation-heavy projects
+- 🌱 Constantly learning: offensive security, scripting, and systems
+- ⚡ I enjoy creating tools, experimenting, and shipping fast
+- 🎯 Goal: become stronger every day in cybersecurity + software engineering
 
 ---
 
-## 🧩 What I'm Exploring
+## ⚙️ Tech Stack
 
-```text
-                       ┌──────────────┐
-                       │     LLM      │
-                       └──────┬───────┘
-                              │
-              ┌───────────────┼───────────────┐
-              ↓               ↓               ↓
-          Context           Tools          Planning
-              │               │               │
-              └───────────────┼───────────────┘
-                              ↓
-                         Execution
-                              ↓
-                        Verification
-                              ↓
-                       Self-correction
-                              ↓
-                   Useful agentic systems
-```
-
-I'm especially interested in:
-
-- 🤖 autonomous and long-running AI agents
-- 🧰 tool-using personal assistants
-- 🧠 context engineering and agent orchestration
-- 🔁 self-correction and verification loops
-- ⚙️ developer automation
-- 🔎 OSINT-oriented research tooling
-- 📈 AI + financial intelligence
-- 🌐 full-stack products powered by LLM workflows
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,bash,linux,git,github,docker,nodejs,react,mongodb,mysql,vscode&perline=7" />
+</p>
 
 ---
 
-## 🛠️ Technology
+## 📊 GitHub Analytics
 
-### Languages
-`Python` · `TypeScript` · `JavaScript` · `SQL` · `HTML/CSS`
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=hackers-reality&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackers-reality&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
-### AI / Agent Engineering
-`LLMs` · `Tool Calling` · `Agent Loops` · `Prompt & Context Engineering` · `Automation` · `Research Workflows`
+<p align="center">
+  <img height="170" src="https://streak-stats.demolab.com?user=hackers-reality&theme=tokyonight&hide_border=true" />
+</p>
 
-### Application Development
-`Next.js` · `React` · `Node.js` · `REST APIs` · `Databases` · `Authentication` · `Full-stack Architecture`
-
-### Workflow
-`Git` · `GitHub` · `CLI-first Development` · `Agent-assisted Engineering`
-
----
-
-## 🔬 The Lab
-
-Not every repository here is supposed to be a polished product.
-
-Some are prototypes. Some are experiments. Some are forks or foundations I study and modify. Some exist because I had an idea at an unreasonable hour and apparently opening another repository was the responsible response.
-
-That's intentional.
-
-I use GitHub as both a **portfolio and an engineering laboratory**:
-
-```text
-idea → prototype → break it → understand why → rebuild → ship → repeat
-```
-
-The useful pieces survive and find their way into the next system.
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hackers-reality&theme=tokyo-night&hide_border=true&area=true" />
+</p>
 
 ---
 
-## 📌 Current Direction
+## 🚀 Featured Repositories
 
-I'm interested in moving from **AI that answers** toward **AI that can reliably act**.
+> Updated as requested: removed both **FRIDAY** repos, removed **GODMODE3**, and added **friday**.
 
-```text
-UNDERSTAND
-    ↓
-  PLAN
-    ↓
-USE TOOLS
-    ↓
- EXECUTE
-    ↓
- INSPECT
-    ↓
- CORRECT
-    ↓
- CONTINUE
-```
-
-**The interesting engineering begins after the first model response.**
+<p align="center">
+  <a href="https://github.com/hackers-reality/friday">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hackers-reality&repo=friday&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
 
 ---
 
-<div align="center">
+## 🏆 Trophies
 
-## Build. Break. Inspect. Improve. Repeat.
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=hackers-reality&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
+</p>
 
-### [→ Explore my repositories](https://github.com/hackers-reality?tab=repositories)
+---
 
-</div>
+## 🌐 Connect
+
+<p align="center">
+  <a href="https://github.com/hackers-reality"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" /></a>
+</p>
+
+---
+
+<p align="center">
+  <i>"Stay curious. Stay relentless."</i>
+</p>
