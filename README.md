@@ -25,20 +25,18 @@ I'm less interested in another chatbot wrapper and more interested in what happe
 
 A strong model helps. But the system around it determines how much of that intelligence survives contact with a real task.
 
-```mermaid
-graph LR
-    A[Objective] --> B[Context]
-    B --> C[Reason + Plan]
-    C --> D{Delegate?}
-    D -->|Yes| E[Parallel Agents]
-    D -->|No| F[Execute]
-    E --> F
-    F --> G[Use Tools]
-    G --> H[Verify]
-    H --> I{Correct?}
-    I -->|No| J[Self-Correct]
-    J --> C
-    I -->|Yes| K[Ship + Continue]
+```text
+OBJECTIVE
+   │
+   ▼
+CONTEXT ──► REASON + PLAN ──► DELEGATE ──► EXECUTE ──► TOOLS
+                 ▲                │                       │
+                 │                └── parallel agents ───┤
+                 │                                        ▼
+                 └──── SELF-CORRECT ◄──── VERIFY ◄────────┘
+                           │                 │
+                           └── failed ───────┘
+                                             └── passed ──► SHIP / CONTINUE
 ```
 
 ---
@@ -47,38 +45,37 @@ graph LR
 
 > **A Windows-native autonomous AI agent built around observation, memory, tools, delegation and action.**
 
-FRIDAY is my largest agentic-system project: voice and live audio, screen awareness, desktop/browser automation, persistent memory, goals and productivity enforcement, communications, model routing, multi-agent delegation, parallel sub-agents, research workflows, scheduling, GitHub integration, self-modification, sidecar networking, dashboards and more.
+FRIDAY is my largest agentic-system project. Its current repository documents voice/live audio, screen awareness, desktop and browser automation, persistent memory, goals, communications, model routing, multi-agent delegation, parallel sub-agents, research workflows, scheduling, GitHub integration, self-modification, sidecars, dashboards and a large tool surface.
 
 The interesting question isn't *“can an LLM answer me?”* It's:
 
 **Can a personal AI observe its environment, remember what matters, choose tools, coordinate work, verify itself and actually finish things?**
 
-```mermaid
-graph TD
-    U[User / Goal] --> F[FRIDAY Core]
-    F --> M[Memory + Context]
-    F --> R[Reasoning + Planning]
-    F --> T[Tool Router]
-    F --> A[Agent Orchestration]
-    T --> D[Desktop]
-    T --> W[Browser / Web]
-    T --> C[Communications]
-    T --> G[GitHub + Dev Tools]
-    A --> P1[Worker Agent]
-    A --> P2[Research Agent]
-    A --> P3[Parallel Sub-agents]
-    M --> V[Verification Loop]
-    R --> V
-    D --> V
-    W --> V
-    C --> V
-    G --> V
-    P1 --> V
-    P2 --> V
-    P3 --> V
-    V -->|Needs correction| F
-    V -->|Done| O[Action / Result]
+```text
+                              ┌────────────────────┐
+                              │    USER / GOAL     │
+                              └─────────┬──────────┘
+                                        ▼
+                              ┌────────────────────┐
+                              │    FRIDAY CORE     │
+                              └─────────┬──────────┘
+          ┌───────────────────┬─────────┼──────────┬───────────────────┐
+          ▼                   ▼         ▼          ▼                   ▼
+   MEMORY + CONTEXT      REASONING   TOOL ROUTER   AGENTS        AUTHORITY
+          │                   │         │          │                   │
+          │                   │    ┌────┼────┐  ┌──┼────────┐          │
+          │                   │    ▼    ▼    ▼  ▼  ▼        ▼          │
+          │                   │ DESKTOP WEB COMMS WORKER RESEARCH PARALLEL
+          │                   │    └────┴────┴──┴──┴────────┘          │
+          └───────────────────┴──────────────┬─────────────────────────┘
+                                             ▼
+                                  ┌────────────────────┐
+                                  │ VERIFICATION LOOP  │
+                                  └─────────┬──────────┘
+                                  retry ◄───┤───► action/result
 ```
+
+The full FRIDAY README itself uses a **repository tree as its architecture view** rather than relying on GitHub's rich-diagram renderer. I followed the same reliability principle here: diagrams that matter are plain README content and survive even when GitHub's Mermaid frontend decides to have a dramatic episode.
 
 **→ [Explore FRIDAY](https://github.com/hackers-reality/friday)**
 
@@ -86,31 +83,59 @@ graph TD
 
 ## 🚀 Selected builds
 
-| Project | What it represents |
-|---|---|
-| 💹 **[FinIntel](https://github.com/hackers-reality/FinIntel)** | AI-assisted financial intelligence and analysis experiments. |
-| 🎌 **[NexAnime](https://github.com/hackers-reality/NexAnime)** | Product/full-stack engineering on the application side of my work. |
-| 🖥️ **[NexCli](https://github.com/hackers-reality/NexCli)** | CLI tooling and developer experimentation — because apparently GUIs weren't enough trouble. |
-| 📚 **[JEE Prep](https://github.com/hackers-reality/JEE-prep)** | Applying software engineering to learning and preparation. |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 🏁 The early builds
+### 💹 [FinIntel](https://github.com/hackers-reality/FinIntel)
+AI-assisted financial intelligence and analysis experiments.
 
-**[EmoBoost](https://github.com/hackers-reality/EmoBoost-1021)** and **[Innovation Challenge](https://github.com/hackers-reality/innovatiochallenge_3011)** are among my first repositories and were built for competitions. They aren't here because they're my most advanced work; they're here because they show where the trajectory started.
+</td>
+<td width="50%" valign="top">
 
-```mermaid
-graph LR
-    A[Competition Builds] --> B[Product Experiments]
-    B --> C[Developer Tools]
-    C --> D[Full-Stack Systems]
-    D --> E[Autonomous Agents]
-    E --> F[FRIDAY]
+### 🎌 [NexAnime](https://github.com/hackers-reality/NexAnime)
+Product and full-stack engineering from the application side of my work.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🖥️ [NexCli](https://github.com/hackers-reality/NexCli)
+CLI tooling and developer experimentation — because apparently GUIs weren't enough trouble.
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 [JEE Prep](https://github.com/hackers-reality/JEE-prep)
+Applying software engineering to learning and preparation.
+
+</td>
+</tr>
+</table>
+
+### 🏁 Where it started
+
+**[EmoBoost](https://github.com/hackers-reality/EmoBoost-1021)** and **[Innovation Challenge](https://github.com/hackers-reality/innovatiochallenge_3011)** are among my earliest repositories and were built for competitions. They stay visible because they show the beginning of the trajectory, not because I'm pretending an early competition build is the same thing as FRIDAY today.
+
+```text
+COMPETITION BUILDS
+       │
+       ▼
+PRODUCT EXPERIMENTS ──► DEVELOPER TOOLS ──► FULL-STACK SYSTEMS
+                                                   │
+                                                   ▼
+                                         AUTONOMOUS AGENTS
+                                                   │
+                                                   ▼
+                                                FRIDAY
 ```
 
-> This profile is curated. Some repositories on the account are forks, references, experiments or old work; I don't pretend every repo under an account is something I authored. Revolutionary concept, apparently. 😭
+> This profile is curated. Some repositories on the account are forks, references, experiments or old work; the projects above are intentionally selected rather than treating every repository as authored flagship work.
 
 ---
 
-## ⚙️ Stack
+## ⚙️ Languages & tools
 
 <div align="center">
 
@@ -124,29 +149,30 @@ graph LR
 
 ---
 
-## 🧩 How I think about agent engineering
-
-```mermaid
-graph TD
-    MODEL[Model] --> ORCH[Orchestration]
-    CONTEXT[Context] --> ORCH
-    MEMORY[Memory] --> ORCH
-    TOOLS[Tools] --> ORCH
-    RULES[Permissions + Guardrails] --> ORCH
-
-    ORCH --> PLAN[Plan]
-    PLAN --> EXEC[Execution]
-    PLAN --> DELEGATE[Parallel Delegation]
-    DELEGATE --> EXEC
-    EXEC --> CHECK[Verification]
-    CHECK -->|Failed| REPAIR[Self-Correction]
-    REPAIR --> PLAN
-    CHECK -->|Passed| DONE[Continue / Ship]
-```
+## 🧩 Agent engineering philosophy
 
 The model is a component, not the whole architecture.
 
+```text
+ MODEL ───────┐
+ CONTEXT ─────┤
+ MEMORY ──────┼──► ORCHESTRATION ──► PLAN ──► EXECUTION ──► VERIFICATION
+ TOOLS ───────┤                         │             ▲            │
+ AUTHORITY ───┘                         │             │            │
+                                        └─► DELEGATE ┘            │
+                                              │                    │
+                                         PARALLEL AGENTS           │
+                                                                   │
+                              SELF-CORRECTION ◄──── failed ─────────┘
+                                      │
+                                      └──────────────► PLAN
+
+                                            passed ──► SHIP / CONTINUE
+```
+
 My favorite engineering loop is giving an agent a real objective, enough context to understand the system, permission to inspect its environment, the ability to delegate when useful, and one non-negotiable rule: **verify what you built before claiming you're done.**
+
+The prompt matters. The working context matters. Tool design matters. Delegation matters. Verification matters. A benchmark score by itself doesn't tell you how well the complete system will behave once you hand it a messy repository and tell it to keep going.
 
 ---
 
@@ -154,15 +180,16 @@ My favorite engineering loop is giving an agent a real objective, enough context
 
 GitHub for me is both. Some repositories are polished projects; others are prototypes, experiments and evidence of an idea arriving at an unreasonable hour.
 
-```mermaid
-graph LR
-    IDEA[Idea] --> PROTO[Prototype]
-    PROTO --> BUILD[Build too much]
-    BUILD --> BREAK[Break something]
-    BREAK --> DEBUG[Understand why]
-    DEBUG --> IMPROVE[Improve the system]
-    IMPROVE --> BUILD
-    BUILD -->|Eventually| SHIP[Ship]
+```text
+idea
+ │
+ ▼
+prototype ──► build too much ──► break something
+                    ▲                   │
+                    │                   ▼
+                    └── improve ◄── understand why
+                    │
+                    └──────────────────────► eventually ship
 ```
 
 The mess is useful. You can see the progression instead of only the finished screenshot.
@@ -178,6 +205,14 @@ The mess is useful. You can see the progression instead of only the finished scr
 </div>
 
 ---
+
+## ⚡ The pattern
+
+```text
+BUILD ──► VERIFY ──► SHIP ──► LEARN
+  ▲                              │
+  └──────────────────────────────┘
+```
 
 <div align="center">
 
