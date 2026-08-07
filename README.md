@@ -3,7 +3,7 @@
 # Hey, I'm Arnav 👋
 ### `hackers-reality`
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=800&color=00F5FF&center=true&vCenter=true&width=900&lines=Building+AI+that+does+things%2C+not+just+talks.;Autonomous+Agents+%E2%80%A2+Full-Stack+Systems+%E2%80%A2+Automation;Prompt+%2B+Context+%2B+Tools+%2B+Verification+%3E+Model+Alone;Build.+Break.+Inspect.+Improve.+Repeat." alt="Typing introduction" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=800&color=00F5FF&center=true&vCenter=true&width=900&lines=Building+AI+that+does+things%2C+not+just+talks.;Autonomous+Agents+%E2%80%A2+Full-Stack+Systems+%E2%80%A2+Automation;Prompt+%2B+Context+%2B+Tools+%2B+Verification+%3E+Model+Alone;Build.+Break.+Inspect.+Improve.+Repeat." alt="Typing introduction" />
 
 <br/>
 
@@ -29,17 +29,11 @@ A model matters. But the way you **prompt it, train its working context, orchest
 
 ---
 
-## 🤖 Flagship Project — F.R.I.D.A.Y.
+## 🤖 Flagship Project — FRIDAY
 
-<div align="center">
+### [→ hackers-reality/friday](https://github.com/hackers-reality/friday)
 
-<a href="https://github.com/hackers-reality/friday">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hackers-reality&repo=friday&theme=tokyonight&hide_border=true" alt="FRIDAY repository" />
-</a>
-
-</div>
-
-**[F.R.I.D.A.Y.](https://github.com/hackers-reality/friday)** is my open-source, Windows-native autonomous AI agent inspired by Iron Man's FRIDAY.
+**FRIDAY** is my open-source, Windows-native autonomous AI agent inspired by Iron Man's FRIDAY.
 
 It goes considerably beyond chat: voice and live audio, screen awareness, desktop and browser automation, persistent memory, goals and productivity enforcement, communications, model routing, multi-agent delegation, parallel sub-agents, research workflows, scheduling, GitHub integration, self-modification, a sidecar network, dashboards and more.
 
@@ -67,34 +61,24 @@ A larger product/full-stack project from the application side of my work.
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [EmoBoost](https://github.com/hackers-reality/EmoBoost-1021)
-An earlier user-facing software project exploring technology around emotional wellbeing.
-
-</td>
-<td width="50%" valign="top">
-
 ### 🖥️ [NexCli](https://github.com/hackers-reality/NexCli)
 CLI tooling and experimentation — because apparently GUIs weren't enough trouble.
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 📚 [JEE Prep](https://github.com/hackers-reality/JEE-prep)
 A newer project applying software to a very different problem space: learning and preparation.
 
 </td>
-<td width="50%" valign="top">
-
-### 🧪 [Innovation Challenge](https://github.com/hackers-reality/innovatiochallenge_3011)
-One of the earlier builds in the portfolio — part of the trail that eventually led to much larger systems.
-
-</td>
 </tr>
 </table>
 
-> Some repositories on this account are forks, references, experiments, or older work. This section intentionally highlights projects I actually want representing me.
+### 🏁 Where it started
+
+**[EmoBoost](https://github.com/hackers-reality/EmoBoost-1021)** and **[Innovation Challenge](https://github.com/hackers-reality/innovatiochallenge_3011)** are among my **earliest repositories**, built for competitions. They're part of the beginning of the story rather than projects I want presented as current flagship work — but I keep them visible because they show where the building started.
+
+> Some repositories on this account are forks, references, experiments, or older work. The projects above are intentionally curated rather than treating every repository under the account as something I authored.
 
 ---
 
@@ -173,8 +157,7 @@ repeat
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=hackers-reality&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hackers-reality&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=hackers-reality&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
 
 <br/>
 
