@@ -32,18 +32,18 @@ A strong model helps. But the system around it determines how much of that intel
 
 ```mermaid
 flowchart LR
-    objective[Objective] --> context[Context]
-    context --> plan[Reason and plan]
-    plan --> decision{Delegate}
-    decision -->|yes| agents[Parallel agents]
-    decision -->|no| execute[Execute]
+    objective["Objective"] --> context["Context"]
+    context --> plan["Reason and plan"]
+    plan --> decision{"Delegate"}
+    decision -->|Yes| agents["Parallel agents"]
+    decision -->|No| execute["Execute"]
     agents --> execute
-    execute --> tools[Use tools]
-    tools --> verify[Verify]
-    verify --> result{Passed}
-    result -->|no| repair[Self correct]
+    execute --> tools["Use tools"]
+    tools --> verify["Verify"]
+    verify --> result{"Passed"}
+    result -->|No| repair["Self correct"]
     repair --> plan
-    result -->|yes| ship[Ship and continue]
+    result -->|Yes| ship["Ship and continue"]
 ```
 
 ---
@@ -60,20 +60,20 @@ The interesting question isn't *“can an LLM answer me?”* It's:
 
 ```mermaid
 flowchart TD
-    user[User or goal] --> core[FRIDAY core]
-    core --> memory[Memory and context]
-    core --> reasoning[Reasoning and planning]
-    core --> router[Tool router]
-    core --> orchestration[Agent orchestration]
-    core --> authority[Authority and safety]
-    router --> desktop[Desktop]
-    router --> browser[Browser and web]
-    router --> comms[Communications]
-    router --> dev[GitHub and dev tools]
-    orchestration --> worker[Worker agents]
-    orchestration --> research[Research agent]
-    orchestration --> parallel[Parallel sub agents]
-    memory --> verify[Verification loop]
+    user["User or goal"] --> core["FRIDAY core"]
+    core --> memory["Memory and context"]
+    core --> reasoning["Reasoning and planning"]
+    core --> router["Tool router"]
+    core --> orchestration["Agent orchestration"]
+    core --> authority["Authority and safety"]
+    router --> desktop["Desktop"]
+    router --> browser["Browser and web"]
+    router --> comms["Communications"]
+    router --> dev["GitHub and dev tools"]
+    orchestration --> worker["Worker agents"]
+    orchestration --> research["Research agent"]
+    orchestration --> parallel["Parallel sub agents"]
+    memory --> verify["Verification loop"]
     reasoning --> verify
     desktop --> verify
     browser --> verify
@@ -83,9 +83,9 @@ flowchart TD
     research --> verify
     parallel --> verify
     authority --> verify
-    verify --> done{Complete}
-    done -->|no| core
-    done -->|yes| output[Action or result]
+    verify --> done{"Complete"}
+    done -->|No| core
+    done -->|Yes| output["Action or result"]
 ```
 
 **→ [Explore FRIDAY](https://github.com/hackers-reality/friday)**
@@ -131,11 +131,11 @@ Applying software engineering to learning and preparation.
 
 ```mermaid
 flowchart LR
-    competitions[Competition builds] --> products[Product experiments]
-    products --> tools[Developer tools]
-    tools --> fullstack[Full stack systems]
-    fullstack --> agents[Autonomous agents]
-    agents --> friday[FRIDAY]
+    competitions["Competition builds"] --> products["Product experiments"]
+    products --> tools["Developer tools"]
+    tools --> fullstack["Full stack systems"]
+    fullstack --> agents["Autonomous agents"]
+    agents --> friday["FRIDAY"]
 ```
 
 > This profile is curated. Some repositories on the account are forks, references, experiments or old work; the projects above are intentionally selected rather than treating every repository as authored flagship work.
@@ -162,20 +162,20 @@ The model is a component, not the whole architecture.
 
 ```mermaid
 flowchart TD
-    model[Model] --> orchestration[Orchestration]
-    context[Context] --> orchestration
-    memory[Memory] --> orchestration
-    tools[Tools] --> orchestration
-    authority[Permissions and guardrails] --> orchestration
-    orchestration --> plan[Plan]
-    plan --> execute[Execution]
-    plan --> delegate[Parallel delegation]
+    model["Model"] --> orchestration["Orchestration"]
+    context["Context"] --> orchestration
+    memory["Memory"] --> orchestration
+    tools["Tools"] --> orchestration
+    authority["Permissions and guardrails"] --> orchestration
+    orchestration --> plan["Plan"]
+    plan --> execute["Execution"]
+    plan --> delegate["Parallel delegation"]
     delegate --> execute
-    execute --> verify[Verification]
-    verify --> status{Passed}
-    status -->|no| repair[Self correction]
+    execute --> verify["Verification"]
+    verify --> status{"Passed"}
+    status -->|No| repair["Self correction"]
     repair --> plan
-    status -->|yes| ship[Continue or ship]
+    status -->|Yes| ship["Continue or ship"]
 ```
 
 My favorite engineering loop is giving an agent a real objective, enough context to understand the system, permission to inspect its environment, the ability to delegate when useful, and one non-negotiable rule: **verify what you built before claiming you're done.**
@@ -190,13 +190,13 @@ GitHub for me is both. Some repositories are polished projects; others are proto
 
 ```mermaid
 flowchart LR
-    idea[Idea] --> prototype[Prototype]
-    prototype --> build[Build too much]
-    build --> breakit[Break something]
-    breakit --> debug[Understand why]
-    debug --> improve[Improve]
+    idea["Idea"] --> prototype["Prototype"]
+    prototype --> build["Build too much"]
+    build --> breakit["Break something"]
+    breakit --> debug["Understand why"]
+    debug --> improve["Improve"]
     improve --> build
-    build --> ship[Eventually ship]
+    build --> ship["Eventually ship"]
 ```
 
 The mess is useful. You can see the progression instead of only the finished screenshot.
