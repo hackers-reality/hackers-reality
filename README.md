@@ -177,14 +177,6 @@ The mess is useful. You can see the progression instead of only the finished scr
 
 </div>
 
-<details>
-<summary><b>Why only one external stats graphic?</b></summary>
-<br/>
-
-Profile README widgets are convenient until somebody else's endpoint has a bad day and your portfolio suddenly develops broken-image icons. The architecture diagrams above are native GitHub Mermaid instead; the activity graph stays because it communicates something GitHub Markdown cannot generate by itself.
-
-</details>
-
 ---
 
 <div align="center">
