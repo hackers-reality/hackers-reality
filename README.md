@@ -66,10 +66,23 @@ flowchart TD
 
 ### 🚀 Selected builds
 
-- **[FRIDAY](https://github.com/hackers-reality/friday)** — Windows-native autonomous AI agent
-- **[FinIntel](https://github.com/hackers-reality/FinIntel)** — AI-assisted financial intelligence and analysis
-- **[NexAnime](https://github.com/hackers-reality/NexAnime)** — Self-hosted anime streaming/tracking app
-- **[JEE Prep](https://github.com/hackers-reality/JEE-prep)** — Software engineering applied to exam prep
+<div align="center">
+
+<a href="https://github.com/hackers-reality/friday">
+<img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/pin/?username=hackers-reality&repo=friday&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" />
+</a>
+<a href="https://github.com/hackers-reality/FinIntel">
+<img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/pin/?username=hackers-reality&repo=FinIntel&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" />
+</a>
+
+<a href="https://github.com/hackers-reality/NexAnime">
+<img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/pin/?username=hackers-reality&repo=NexAnime&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" />
+</a>
+<a href="https://github.com/hackers-reality/JEE-prep">
+<img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/pin/?username=hackers-reality&repo=JEE-prep&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" />
+</a>
+
+</div>
 
 ### 🏁 Where it started
 
@@ -84,14 +97,30 @@ flowchart TD
 ## ⚙️ Languages & tools
 
 <div align="center">
+<br/>
 
 <img src="https://skillicons.dev/icons?i=python,typescript,javascript,react,nextjs,nodejs,html,css,git,github,linux,bash,docker,vscode,mysql&perline=8" alt="Technology icons" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/top-langs/?username=hackers-reality&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" alt="Top languages" width="48%" />
+<img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/?username=hackers-reality&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9&icon_color=00F5FF" alt="GitHub stats" width="48%" />
 
 </div>
 
 ### Things I keep going too far into
 
 `LLM Agents` · `Context Engineering` · `Multi-Agent Systems` · `Automation` · `Full-Stack Architecture` · `APIs` · `Databases`
+
+<br/>
+
+## 📊 Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph-dusky-eight.vercel.app/graph?username=hackers-reality&theme=tokyo-night&hide_border=true&bg_color=0a0a0a&color=00F5FF&line=00F5FF&point=ffffff&area=true" alt="Contribution activity graph" />
+
+</div>
 
 <br/>
 
