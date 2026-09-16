@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Arnav 👋
+# Hey, I'm Arnav Phulari 👋
 ### `hackers-reality`
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=800&color=00F5FF&center=true&vCenter=true&width=900&lines=I+build+AI+that+does+things%2C+not+just+talks.;Agents+%E2%86%92+Tools+%E2%86%92+Verification+%E2%86%92+Action.;Break+it.+Understand+it.+Ship+it.+Repeat." alt="Typing introduction" />
