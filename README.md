@@ -7,7 +7,7 @@
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=hackers-reality&style=for-the-badge&color=0891B2" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=hackers-reality&label=PROFILE%20VIEWS&style=for-the-badge&color=0891b2" alt="Profile views" />
 <img src="https://img.shields.io/badge/Focus-Agentic%20AI-00F5FF?style=for-the-badge&labelColor=0a0a0a" alt="Agentic AI" />
 <img src="https://img.shields.io/badge/Status-Building-00E676?style=for-the-badge&labelColor=0a0a0a" alt="Building" />
 
