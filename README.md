@@ -75,6 +75,9 @@ flowchart TD
 <img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/pin/?username=hackers-reality&repo=FinIntel&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" />
 </a>
 
+<a href="https://github.com/hackers-reality/youtube-skillbox">
+<img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/pin/?username=hackers-reality&repo=youtube-skillbox&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" />
+</a>
 <a href="https://github.com/hackers-reality/NexAnime">
 <img src="https://github-readme-stats-ruddy-omega-81.vercel.app/api/pin/?username=hackers-reality&repo=NexAnime&theme=tokyonight&hide_border=true&bg_color=0a0a0a&title_color=00F5FF&text_color=c9d1d9" />
 </a>
@@ -83,6 +86,36 @@ flowchart TD
 </a>
 
 </div>
+
+<br/>
+
+## 📺 YouTube Skillbox — 13 Free Skills for AI Agents
+
+> **Zero API keys, zero credits, zero cost** — A complete YouTube toolkit for AI agents built on `yt-dlp` + raw Innertube/HTTP scraping where yt-dlp stops.
+
+**Two layers:**
+
+| Layer | Skills | What it does |
+|-------|--------|--------------|
+| **Research** | `youtube`, `transcript` | Search, channels, playlists, community posts (paginated), home shelves, Shows tab, video stats, transcripts — all free |
+| **Creator workflow** | 11 × `yt-*` | Scripts, hooks, SEO, chapters, Shorts extraction, edit lists, retention analysis, audits, viral research, content planning, comment replies |
+
+**Gap-fills we built because yt-dlp refuses them:**
+- Community posts via `/posts` + Innertube continuation POSTs (infinite scroll)
+- Home tab shelves incl. **Featured Channels** with URLs
+- Shows tab (`gridShowRenderer` parser)
+- Tab counts in one call (`sections`)
+
+```bash
+python ytdata.py search "ai agents" --limit 10
+python ytdata.py home "@MKBHD" --limit 3
+python ytdata.py posts "@MrBeast" --limit 30
+python gettranscript.py "dQw4w9WgXcQ" --format json
+```
+
+**→ [youtube-skillbox](https://github.com/hackers-reality/youtube-skillbox)** · `MIT` · Works with any agent harness that discovers `SKILL.md` (OpenCode, Claude Code, etc.)
+
+<br/>
 
 ### 🏁 Where it started
 
