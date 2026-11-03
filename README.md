@@ -98,7 +98,7 @@ flowchart TD
 | Layer | Skills | What it does |
 |-------|--------|--------------|
 | **Research** | `youtube`, `transcript` | Search, channels, playlists, community posts (paginated), home shelves, Shows tab, video stats, transcripts — all free |
-| **Creator workflow** | 11 × `yt-*` | Scripts, hooks, SEO, chapters, Shorts extraction, edit lists, retention analysis, audits, viral research, content planning, comment replies |
+| **Creator workflow** | 10 × `yt-*` | Scripts, hooks, SEO, chapters, Shorts extraction, edit lists, retention analysis, audits, viral research, content planning, comment replies |
 
 **Gap-fills we built because yt-dlp refuses them:**
 - Community posts via `/posts` + Innertube continuation POSTs (infinite scroll)
